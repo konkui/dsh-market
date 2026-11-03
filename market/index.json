@@ -32,7 +32,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/konkui/dsh-sync",
-            "commit": "ab581cdf2b9d2c1e82885977b79421c33e6ef2b6",
+            "commit": "7074ab3ed89b9b4172809850943a309dfda653d5",
             "path": "plugin/dsh-plugin-sync"
           },
           "engines": {
