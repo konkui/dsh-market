@@ -40,6 +40,44 @@
           }
         }
       ]
+    },
+    {
+      "name": "@local/dsh-git-sync",
+      "title": {
+        "en": "DSH Git Sync (Sidebar)",
+        "zh": "DSH 同步（侧栏）"
+      },
+      "description": {
+        "en": "Sidebar panel for git/GitHub sync of DSH configuration and archived sessions.",
+        "zh": "带左侧栏入口的 Git/GitHub 同步面板：同步 DSH 配置和已归档会话。"
+      },
+      "author": "konkui",
+      "homepage": "https://github.com/konkui/dsh-sync",
+      "repository": {
+        "url": "https://github.com/konkui/dsh-sync"
+      },
+      "keywords": [
+        "sync",
+        "git",
+        "github",
+        "sidebar",
+        "backup"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793749692,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/konkui/dsh-sync",
+            "commit": "f1586e66ab4ca70852d5958362f67f767e30c889",
+            "path": "plugin/dsh-git-sync"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
     }
   ]
 }
