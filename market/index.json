@@ -1,0 +1,45 @@
+{
+  "format": 1,
+  "title": {
+    "en": "konkui plugins",
+    "zh": "konkui 的插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-sync",
+      "title": {
+        "en": "DSH Sync",
+        "zh": "DSH 同步"
+      },
+      "description": {
+        "en": "Status pill for git/GitHub sync of DSH config and archived sessions.",
+        "zh": "把 DSH 配置和已归档会话同步到 Git/GitHub，输入框上方显示同步状态。"
+      },
+      "author": "konkui",
+      "homepage": "https://github.com/konkui/dsh-sync",
+      "repository": {
+        "url": "https://github.com/konkui/dsh-sync"
+      },
+      "keywords": [
+        "sync",
+        "git",
+        "backup"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793712000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/konkui/dsh-sync",
+            "commit": "c79547d27d4f34039de13c566c5bf51e44a74a8d",
+            "path": "plugin/dsh-plugin-sync"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
