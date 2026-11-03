@@ -48,8 +48,8 @@
         "zh": "DSH 同步（侧栏）"
       },
       "description": {
-        "en": "Sidebar panel for git/GitHub sync of DSH configuration and archived sessions.",
-        "zh": "带左侧栏入口的 Git/GitHub 同步面板：同步 DSH 配置和已归档会话。"
+        "en": "Sidebar panel for git/GitHub sync of DSH configuration and archived sessions, including one-click clone.",
+        "zh": "带左侧栏入口的 Git/GitHub 同步面板：同步 DSH 配置和已归档会话，支持一键从 GitHub 克隆。"
       },
       "author": "konkui",
       "homepage": "https://github.com/konkui/dsh-sync",
@@ -64,6 +64,19 @@
         "backup"
       ],
       "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1793750270,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/konkui/dsh-sync",
+            "commit": "62efcbe71b17e540adae49d93bc96a1e7da3e19c",
+            "path": "plugin/dsh-git-sync"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5"
+          }
+        },
         {
           "version": "0.1.0",
           "publishTimestamp": 1793749692,
